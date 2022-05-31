@@ -1,10 +1,10 @@
 <script>
-  import logo from './assets/svelte.png'
-  import Counter from './lib/Counter.svelte'
+  import logo from './assets/logo.jpg'
 </script>
 
 <main>
   <div>
+    <img src={logo} alt="YC Logo" />
     <h2>Home</h2>
     Vítejte na stránkách YC Doksy</div>
   <div>
