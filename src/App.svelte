@@ -1,21 +1,30 @@
 <script>
   import logo from './assets/logo.jpg'
   import './app.css'
+  import Contact from './lib/Contact.svelte'
 </script>
 
 <main>
-  <div>
-    <img src={logo} alt="YC Logo" />
-    <h2>Home</h2>
-    Vítejte na stránkách YC Doksy</div>
-  <div>
+  
+  <section>
+    <!-- <h2>Home</h2> -->
+    <div class="flex">
+      <div class="shrink-0">
+        <img src={logo} class="block h-24 w-24" alt="YC Logo" />
+      </div>
+      <p>Vítejte na stránkách YC Doksy</p>
+    </div>
+  </section>
+
+
+  <section class="p-6">
     <h2>Historie</h2>
     <p>
       YACHT CLUB Doksy byl založen roku 1927 …… (nějaký text dodám, vezmeme z nějaké brožury)
     </p>
-  </div>
+  </section>
 
-  <div>
+  <section class="p-6">
     <h2>Závody</h2>
     <table>
       <thead>
@@ -70,26 +79,26 @@
         </tr>
       </tbody>
     </table>
-  </div>
+  </section>
 
-  <section>
+  <section class="p-6">
     <h2>Aktuality</h2>
     <article>
       Pro vybraného jedince možnost vkládat a mazat?
     </article>
   </section>
 
-  <section>
+  <section class="p-6">
     <h2>Galerie</h2>
     <p>Pokud možno více „sekcí“ , kronika, Tour de ostrovy ……</p>
   </section>
 
-  <section>
+  <section class="p-6">
     <h2>Dokumenty</h2>
     <p>Stanovy, provozní řád, ...</p>
   </section>
 
-  <section>
+  <section class="p-6">
     <h2>Odkazy</h2>
     <ul>
       <li>ČSJ <a href="www.sailing.cz">www.sailing.cz</a></li>
@@ -97,7 +106,7 @@
     </ul>
   </section>
 
-  <section>
+  <section class="p-6">
     <h2>Kontakt</h2>
     <div>
       <p>YACHT CLUB DOKSY
@@ -112,82 +121,18 @@
     </div>
   </section>
 
-  <section>
+  <section class="p-6">
     <h2>Lidé</h2>
     <div>
-      <div>
-        <h4>Popper Kamil - předseda</h4>
-        <a href="tel:+420777238309">777 238 309</a>
-        <a href="mailto:kamilpopper@seznam.cz">kamilpopper@seznam.cz</a>
-      </div>
-      <div>
-        <h4>Kraus Zdeněk - správce</h4>
-        <a href="tel:+420724797423">724 797 423</a>
-        <a href="mailto:krausdoksy@seznam.cz">krausdoksy@seznam.cz</a>
-      </div>
-      <div>
-        <h4>Šulc Jiří - ekonom</h4>
-        <a href="tel:+420777162895">777162895</a>
-        <a href="mailto:sulc@thean.cz">sulc@thean.cz</a>
-      </div>
-      <div>
-        <h4>Pokorný Miloslav - mládež a trenéři</h4>
-        <a href="tel:+420602174856">602174856</a>
-        <a href="mailto:milapokorny@seznam.cz">milapokorny@seznam.cz</a>
-      </div>
-      <div>
-        <h4>Háma Petr ing. - závody a rozhodčí</h4>
-        <a href="tel:+420777996728">777 996 728</a>
-        <a href="mailto:petr.hama@seznam.cz">petr.hama@seznam.cz</a>
-      </div>
-      <div>
-        <h4>Svobodová Kateřina - členská základna</h4>
-        <a href="tel:+420734507228">734 507 228</a>
-      </div>
+      <Contact name="Popper Kamil" title="předseda" tel="777 238 309" email="kamilpopper@seznam.cz" />
+      <Contact name="Kraus Zdeněk" title="správce" tel="724 797 423" email="krausdoksy@seznam.cz" />
+      <Contact name="Šulc Jiří" title="ekonom" tel="777 162 895" email="sulc@thean.cz" />
+      <Contact name="Pokorný Miloslav" title="mládež a trenéři" tel="602 174 856" email="milapokorny@seznam.cz" />
+      <Contact name="Háma Petr ing." title="závody a rozhodčí" tel="777 996 728" email="petr.hama@seznam.cz" />
+      <Contact name="Svobodová Kateřina" title="členská základna" tel="734 507 228" />
     </div>
   </section>
 </main>
 
 <style>
-  :root {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-
-  main {
-    text-align: center;
-    padding: 1em;
-    margin: 0 auto;
-  }
-
-  img {
-    height: 16rem;
-    width: 16rem;
-  }
-
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4rem;
-    font-weight: 100;
-    line-height: 1.1;
-    margin: 2rem auto;
-    max-width: 14rem;
-  }
-
-  p {
-    max-width: 14rem;
-    margin: 1rem auto;
-    line-height: 1.35;
-  }
-
-  @media (min-width: 480px) {
-    h1 {
-      max-width: none;
-    }
-
-    p {
-      max-width: none;
-    }
-  }
 </style>
