@@ -17,7 +17,7 @@
   </section>
 
 
-  <section class="p-6">
+  <section class="prose p-6">
     <h2>Historie</h2>
     <p>
       YACHT CLUB Doksy byl založen roku 1927 …… (nějaký text dodám, vezmeme z nějaké brožury)
@@ -81,24 +81,24 @@
     </table>
   </section>
 
-  <section class="p-6">
+  <section class="prose p-6">
     <h2>Aktuality</h2>
     <article>
       Pro vybraného jedince možnost vkládat a mazat?
     </article>
   </section>
 
-  <section class="p-6">
+  <section class="prose p-6">
     <h2>Galerie</h2>
     <p>Pokud možno více „sekcí“ , kronika, Tour de ostrovy ……</p>
   </section>
 
-  <section class="p-6">
+  <section class="prose p-6">
     <h2>Dokumenty</h2>
     <p>Stanovy, provozní řád, ...</p>
   </section>
 
-  <section class="p-6">
+  <section class="prose p-6">
     <h2>Odkazy</h2>
     <ul>
       <li>ČSJ <a href="www.sailing.cz">www.sailing.cz</a></li>
@@ -106,7 +106,7 @@
     </ul>
   </section>
 
-  <section class="p-6">
+  <section class="prose p-6">
     <h2>Kontakt</h2>
     <div>
       <p>YACHT CLUB DOKSY
@@ -123,7 +123,7 @@
 
   <section class="p-6">
     <h2>Lidé</h2>
-    <div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       <Contact name="Popper Kamil" title="předseda" tel="777 238 309" email="kamilpopper@seznam.cz" />
       <Contact name="Kraus Zdeněk" title="správce" tel="724 797 423" email="krausdoksy@seznam.cz" />
       <Contact name="Šulc Jiří" title="ekonom" tel="777 162 895" email="sulc@thean.cz" />
