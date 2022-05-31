@@ -1,5 +1,6 @@
 <script>
   import logo from './assets/logo.jpg'
+  import './app.css'
 </script>
 
 <main>
