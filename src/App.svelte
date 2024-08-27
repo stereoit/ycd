@@ -6,6 +6,16 @@
 
 <main>
   
+  <nav>
+    <ul>
+      <li>Aktuality</li>
+      <li>Historie</li>
+      <li>Závody</li>
+      <li>Galerie</li>
+      <li>kontakty</li>
+    </ul>
+  </nav>
+
   <section>
     <!-- <h2>Home</h2> -->
     <div class="flex">
@@ -135,4 +145,7 @@
 </main>
 
 <style>
+  main {
+    background-color: beige;
+  }
 </style>
