@@ -1,0 +1,139 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/3v/Desktop/Složka YACHTKLUB_web/Document fonts/AdobeFnt23.lst
+FileLength:2968
+FileModTime:730809818
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/3v/Desktop/Složka YACHTKLUB_web/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:184404
+FileModTime:74452702
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+MenuName:Roboto
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Roboto Bold
+WritingScript:Roman
+OutlineFileName:/Users/3v/Desktop/Složka YACHTKLUB_web/Document fonts/Roboto-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:135820
+FileModTime:405523166
+NameArray:0,Mac,18,Roboto Bold
+NameArray:0,Mac,4,Roboto Bold
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Bold
+FamilyName:Roboto Condensed
+StyleName:Bold
+MenuName:Roboto Condensed
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:Roboto Condensed Bold
+WritingScript:Roman
+OutlineFileName:/Users/3v/Desktop/Složka YACHTKLUB_web/Document fonts/RobotoCondensed-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:141796
+FileModTime:405523196
+NameArray:0,Mac,18,Roboto Condensed Bold
+NameArray:0,Mac,4,Roboto Condensed Bold
+NameArray:0,Win,1,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Light
+FamilyName:Roboto Condensed
+StyleName:Light
+MenuName:Roboto Condensed Light
+StyleBits:0
+WeightClass:300
+WidthClass:3
+AngleClass:0
+FullName:Roboto Condensed Light
+WritingScript:Roman
+OutlineFileName:/Users/3v/Desktop/Složka YACHTKLUB_web/Document fonts/RobotoCondensed-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:141384
+FileModTime:405523200
+NameArray:0,Mac,18,Roboto Condensed Light
+NameArray:0,Mac,4,Roboto Condensed Light
+NameArray:0,Win,1,Roboto Condensed Light
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Regular
+FamilyName:Roboto Condensed
+StyleName:Regular
+MenuName:Roboto Condensed
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Roboto Condensed Regular
+WritingScript:Roman
+OutlineFileName:/Users/3v/Desktop/Složka YACHTKLUB_web/Document fonts/RobotoCondensed-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:140396
+FileModTime:405523202
+NameArray:0,Mac,18,Roboto Condensed Regular
+NameArray:0,Mac,4,Roboto Condensed Regular
+NameArray:0,Win,1,Roboto Condensed
+%EndFont
+
