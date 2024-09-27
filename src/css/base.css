@@ -1,5 +1,11 @@
-h2 {
-    color: theme('colors.blue.600');
-    font-weight: theme('fontWeight.semibold');
-    padding-bottom: theme('padding.1');
+.welcome-label {
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
+
+.triangle-down {
+    width: 0; 
+    height: 0; 
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 20px solid #c0c003;
+  }
