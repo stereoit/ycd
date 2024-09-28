@@ -11,7 +11,7 @@
   import gallery from './assets/gallery.jpg';
   import plachetnice from './assets/plachetnice.jpg';
 
-  let isMenuVisible = false
+  let isMenuVisible = $state(false)
 
   function toggleMenuCategories() {
     if (isMenuVisible === false) {
@@ -44,11 +44,11 @@
       </ul>
       <div class="block text-[#2f2874] lg:hidden">
         {#if isMenuVisible === false}
-        <div on:click={toggleMenuCategories}>
+        <div onclick={toggleMenuCategories}>
           <p class="font-bold">MENU</p>
         </div>
         {:else}
-        <div on:click={toggleMenuCategories}>
+        <div onclick={toggleMenuCategories}>
           <p class="font-bold">MENU</p>
         </div>
         <div class="absolute right-0 w-full mt-[30px] text-center bg-[#ffffff] md:bg-[#ffffff]/[0.5] p-[32px] z-[2]">

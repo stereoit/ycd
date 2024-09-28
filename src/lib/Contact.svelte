@@ -5,8 +5,11 @@
 </div>
 
 <script>
-    export let name;
-    export let title;
-    export let tel;
-    export let email = "";
+    /** @type {{name: any, title: any, tel: any, email?: string}} */
+    let {
+        name,
+        title,
+        tel,
+        email = ""
+    } = $props();
 </script>
