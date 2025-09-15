@@ -1,0 +1,23 @@
+---
+import { aktuality } from '../data/aktuality';
+---
+
+<section class="p-[24px] lg:px-[450px]">
+  <div class="lg:mt-[40px]">
+    <h1 class="text-[#2f2874] font-bold text-[30px] lg:text-[40px] border-b border-[#c0c003]">aktuality</h1>
+  </div>
+  <div class="mt-[15px] lg:mt-[30px]">
+    {aktuality.map((item) => (
+      <div class="py-[8px]">
+        <p class="py-[4px] font-light text-[20px]">{item.date}</p>
+        <p class="font-bold text-[20px]">{item.title}</p>
+        <p class="font-light text-[20px]">{item.body}</p>
+      </div>
+    ))}
+    <div class="mt-[8px] overflow-hidden md:flex lg:flex lg:justify-between md:justify-between">
+        <img src="/images/aktu.jpg" class="border border-[#c0c003] w-full md:w-[300px] lg:w-[320px] md:h-[220px] lg:h-[250px] mb-[10px]" alt="aktu" />
+        <img src="/images/aktu2.jpg" class="border border-[#c0c003] w-full md:w-[300px] lg:w-[320px] md:h-[220px] lg:h-[250px] mb-[10px]" alt="aktu2" />
+        <img src="/images/aktu3.jpg" class="border border-[#c0c003] w-full md:w-[300px] lg:w-[320px] md:h-[220px] lg:h-[250px] mb-[10px]" alt="aktu3" />
+    </div>
+  </div>
+</section>

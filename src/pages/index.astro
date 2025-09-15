@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Aktuality from '../components/Aktuality.astro';
+import Kontakty from '../components/Kontakty.astro';
+---
+
+<Layout title="Yacht Club Doksy">
+  <div class="w-full flex justify-center items-center">
+    <div class="absolute text-[#ffffff] text-[25px] lg:text-[50px]">
+      <p class="welcome-label">VÍTEJTE NA STRÁNKÁCH</p>
+      <p class="welcome-label">YACHT CLUBU DOKSY</p>
+    </div>
+    <img src="/images/header_picture.jpg" class="w-full" alt="headerPicture"/>
+  </div>
+
+  <Aktuality />
+
+  <img src="/images/newsPicture.jpg" class="w-full" alt="news picture" />
+
+  <Kontakty />
+
+  <img src="/images/plachetnice.jpg" class="w-full" alt="plachetnice"/>
+</Layout>

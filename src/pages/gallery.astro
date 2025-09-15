@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { galleryImages } from '../data/gallery';
+---
+
+<Layout title="Galerie - Yacht Club Doksy">
+  <section class="p-[24px] lg:px-[450px]">
+    <div class="lg:mt-[40px]">
+      <h1 class="text-[#2f2874] font-bold text-[30px] lg:text-[40px] border-b border-[#c0c003]">Galerie</h1>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-[15px] lg:mt-[30px]" id="gallery">
+      {galleryImages.map((item) => (
+        <a href={item.src} data-pswp-width={item.w} data-pswp-height={item.h} target="_blank">
+          <img src={item.src} alt={item.title} class="w-full h-auto" />
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>
+
+<script>
+  import PhotoSwipeLightbox from 'photoswipe/lightbox';
+  import 'photoswipe/style.css';
+
+  const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () => import('photoswipe'),
+  });
+
+  lightbox.init();
+</script>
